@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+
+.body{
+    background-color: #001229;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.logo_frase{
+    margin-top: 3%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+    width: 50%;
+    padding: 1%;
+}
+
+.frase{
+    display: flex;
+    width: 50%;
+    font-family: 'Bruno Ace', cursive;
+    font-size: 3rem;
+    text-align: left;
+    margin-left: 3%;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.container_bottons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.botton{
+    background-color: #2779A7;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 2rem;
+    font-family: 'Bruno Ace', cursive;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
